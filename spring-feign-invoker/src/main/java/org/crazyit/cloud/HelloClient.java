@@ -19,6 +19,4 @@ public interface HelloClient {
 	@MyUrl(url = "/hellowd", method = "GET")
 	String myHello();
 
-	@MyUrl(url = "/hellowd2", method = "GET")
-	String myHello2();
 }
